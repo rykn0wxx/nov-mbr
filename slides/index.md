@@ -1,7 +1,7 @@
 
 # Business Review
 
-From the terminal, pop in:
+From the terminals, pop in:
 
   ```yo reveal:slide "Slide Title"```
 

@@ -1,0 +1,216 @@
+/*********************************************
+ * Custom: Styles
+ *********************************************/
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,600,700,400italic,700italic);
+.reveal.csm {
+	font-family: Roboto;
+}
+.reveal.csm h1,
+.reveal.csm h2,
+.reveal.csm h3,
+.reveal.csm h4,
+.reveal.csm h5,
+.reveal.csm h6 {
+  font-family: Roboto, Impact, sans-serif;
+  font-weight: 600;
+  text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2); 
+}
+.reveal.csm .page-header {
+	text-align: left;
+	border-bottom: 1px solid #eee;
+	padding-bottom: 9px;
+}
+
+.reveal.cube .slides section.empty:not(.stack):before {
+	background: rgba(0, 0, 0, 0);
+}
+.reveal.cube .slides section.empty:not(.stack):after {
+	box-shadow: none;
+}
+
+.reveal.cube .slides section.norm {
+	top: 0 !important;
+	padding-top: 20px;
+}
+.reveal.cube .slides section.norm:not(.stack):before {
+	background: rgba(255, 255, 255, 0.1);
+}
+.reveal.cube .slides section.norm:not(.stack):after {
+	box-shadow: none;
+}
+ 
+.reveal.cube .slides section {
+  padding: 50px;
+  min-height: 800px;
+}
+
+.reveal.cube .slides section.header {
+	color: #333;
+	left: 10%;
+	top: 40% !important;
+	text-align: right;
+}
+.reveal.cube .slides section.header h3 {
+	color: #333;
+}
+
+.reveal.cube .slides section.header:not(.stack):before {
+	background: rgba(0, 0, 0, 0.2);
+}
+.reveal.cube .slides section:not(.stack):before {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.aca .table {
+	line-height: 1.42857143;
+	border: none;
+	background-color: #78909c;
+	color: #c8c8c8;
+	vertical-align: middle;
+}
+
+.aca .table > thead {
+	background-color: #2e3338;
+}
+.aca .table > thead > tr,
+.aca .table > tbody > tr,
+.aca .table > tbody > tr > td {
+	line-height: 20px;
+}
+.aca .table > thead > tr > th {
+	font-size: 18px;
+	border: none;
+	border-bottom: 2px solid rgba(30,30,31,0.5);
+	padding: 10px;
+  text-align: center;
+	font-weight: 700;
+	font-color: #fff;
+}
+
+.aca .table > tbody > tr {
+  color: #333;
+}
+
+.aca .table > tbody > tr > td {
+	vertical-align: middle;
+	border: none;
+	border-top: 1px solid rgba(0,0,0,0.1);
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.05);
+}
+
+.aca .table > tbody > tr:nth-of-type(odd) {
+  /*background-color: #dce6f1;*/
+  background-color: #f9f9f9;
+}
+.aca .table > tbody > tr:nth-of-type(odd):hover {
+  background-color: #d5e1ee;
+	box-shadow: 0 0px 30px 0 rgba(0, 0, 0, 0.5), 1px 0 0 0 rgba(255, 255, 255, 0.25);
+	
+}
+.aca .table-striped > tbody > tr:nth-of-type(even) {
+  /*background-color: #f8f5f0;*/
+  background-color: #e8e8e8;
+}
+.aca .table-striped > tbody > tr:nth-of-type(even):hover {
+  background-color: #c2d3ec;
+}
+
+.aca .tb-col1 {
+	width: 38%;
+	color: rgba(10,10,10,1);
+	padding-left: 15px; 
+}
+.aca .tb-col1 > span {
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.aca .tb-col1 > p {
+	font-size: 13px;
+	font-style: italic;
+	padding-left: 10px;
+	color: rgba(79,79,79,1);
+	margin: 0;
+}
+
+.aca .tb-col2 {
+	width: 27%;
+	font-style: italic;
+	font-size: 13px;
+}
+
+.aca .tb-col3 {
+	width: 8%;
+	text-align: center;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.aca .tb-col4 {
+	width: 14%;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	color: #43a047;
+}
+.aca .tb-col4 > p {
+	font-size: 13px;
+	font-style: italic;
+	padding-left: 10px;
+	color: rgba(79,79,79,1);
+	margin: 0;
+}
+.aca .tb-col4 > span.rr {
+	color: #ef5350;
+}
+.aca .tb-col4 > p.rr {
+	color: #e57373;
+	font-size: 14px !important;
+}
+.aca .tb-col4 > span.gg {
+	color: #43a047;
+}
+.aca .tb-col4 > p.gg {
+	color: #66bb6a;
+	font-size: 14px !important;
+}
+.aca .tb-col4 > span.yy {
+	color: #ffb300;
+}
+.aca .tb-col4 > p.yy {
+	color: #ffca28;
+	font-size: 14px !important;
+}
+
+.aca .tb-col5 {
+	width: 14%;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.g1 {
+	color: #43a047;
+}
+.g2 {
+	color: #66bb6a;
+	font-size: 14px !important;
+}
+.r1 {
+	color: #ef5350;
+}
+.r2 {
+	color: #e57373;
+	font-size: 14px !important;
+}
+
+.p1 {
+	color: #ba68c8;
+}
+.p2 {
+	color: #ab47bc;
+	font-size: 14px !important;
+}
+.nodata {
+	color: #c8c8c8;
+}

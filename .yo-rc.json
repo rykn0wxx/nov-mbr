@@ -1,0 +1,11 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "Business Review",
+    "packageVersion": "0.0.0",
+    "revealTheme": "league",
+    "useSass": false,
+    "deployToGithubPages": true,
+    "githubUsername": "rykn0wxx",
+    "githubRepository": "nov-mbr"
+  }
+}

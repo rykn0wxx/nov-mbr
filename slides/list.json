@@ -56,5 +56,12 @@
         "attr": {
             "class": "norm"
         }
+    },
+		{
+        "filename": "sd-reg-sla.html",
+        "attr": {
+            "data-background": "resources/images/reg-bg.jpg",
+						"class": "regi"
+        }
     }
 ]

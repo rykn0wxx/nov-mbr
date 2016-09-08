@@ -3,7 +3,7 @@
  *********************************************/
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,600,700,400italic,700italic);
 .reveal.csm {
-	font-family: Roboto;
+	font-family: Roboto, 'Helvetica Neue';
 }
 .reveal.csm h1,
 .reveal.csm h2,
@@ -11,7 +11,7 @@
 .reveal.csm h4,
 .reveal.csm h5,
 .reveal.csm h6 {
-  font-family: Roboto, Impact, sans-serif;
+  font-family: Roboto, 'Helvetica Neue', Helvetica, Impact, sans-serif;
   font-weight: 600;
   text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2); 
 }
@@ -30,7 +30,7 @@
 
 .reveal.cube .slides section.norm {
 	top: 0 !important;
-	padding-top: 20px;
+	padding: 20px;
 }
 .reveal.cube .slides section.norm:not(.stack):before {
 	background: rgba(255, 255, 255, 0.1);
@@ -38,12 +38,26 @@
 .reveal.cube .slides section.norm:not(.stack):after {
 	box-shadow: none;
 }
- 
+
+.reveal.cube .slides section.regi {
+	top: 0 !important;
+	padding: 20px;
+}
+.reveal.cube .slides section.regi:not(.stack):before {
+	background: rgba(0, 0, 0, 0.5);
+}
+.reveal.cube .slides section.regi:not(.stack):after {
+	box-shadow: none;
+}
+
 .reveal.cube .slides section {
   padding: 50px;
   min-height: 800px;
 }
 
+.reveal.cube .slides section.charts:not(.stack):before {
+	background: rgba(255,255,255, 0.5);
+}
 .reveal.cube .slides section.header {
 	color: #333;
 	left: 10%;
@@ -57,12 +71,9 @@
 .reveal.cube .slides section.header:not(.stack):before {
 	background: rgba(0, 0, 0, 0.2);
 }
-.reveal.cube .slides section:not(.stack):before {
-  background: rgba(0, 0, 0, 0.8);
-}
 
 .aca .table {
-	line-height: 1.42857143;
+	line-height: 1.00057143;
 	border: none;
 	background-color: #78909c;
 	color: #c8c8c8;
@@ -75,13 +86,13 @@
 .aca .table > thead > tr,
 .aca .table > tbody > tr,
 .aca .table > tbody > tr > td {
-	line-height: 20px;
+	line-height: 1.00057143;
 }
 .aca .table > thead > tr > th {
-	font-size: 18px;
+	font-size: 16px;
 	border: none;
 	border-bottom: 2px solid rgba(30,30,31,0.5);
-	padding: 10px;
+	padding: 8px;
   text-align: center;
 	font-weight: 700;
 	font-color: #fff;
@@ -116,12 +127,12 @@
 }
 
 .aca .tb-col1 {
-	width: 38%;
+	width: 32%;
 	color: rgba(10,10,10,1);
 	padding-left: 15px; 
 }
 .aca .tb-col1 > span {
-	font-size: 18px;
+	font-size: 16px;
 	text-transform: uppercase;
 	font-weight: 600;
 }
@@ -142,19 +153,19 @@
 .aca .tb-col3 {
 	width: 8%;
 	text-align: center;
-	font-size: 13px;
+	font-size: 14px;
 	font-weight: 600;
 }
 
 .aca .tb-col4 {
-	width: 14%;
+	width: 20%;
 	text-align: center;
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: bold;
 	color: #43a047;
 }
 .aca .tb-col4 > p {
-	font-size: 13px;
+	font-size: 14px;
 	font-style: italic;
 	padding-left: 10px;
 	color: rgba(79,79,79,1);
@@ -189,6 +200,51 @@
 	font-weight: bold;
 }
 
+.aca .regional > tbody > tr > td {
+	padding: 8px 15px;
+	line-height: 20px;
+	text-align: center;
+	color: #333;
+}
+
+.aca .regional .tb-col1 {
+	text-align: left;
+	width: 19%;
+	font-size: 16px;
+	font-weight: bold;
+}
+.aca .regional .tb-col2 {
+	text-align: left;
+	width: 26%;
+	font-size: 12px;
+}
+.aca .regional .tb-col3 {
+	text-align: left;
+	width: 13%;
+	font-size: 12px;
+	font-weight: 300;
+}
+.aca .regional .tb-col4 {
+	width: 10%;
+	font-size: 15px;
+	font-weight: bold;
+}
+.aca .regional .tb-col5 {
+	width: 10%;
+	font-size: 15px;
+	font-weight: bold;
+}
+.aca .regional .tb-col6 {
+	width: 10%;
+	font-size: 15px;
+	font-weight: bold;
+}
+.aca .regional .tb-col7 {
+	width: 10%;
+	font-size: 15px;
+	font-weight: bold;
+}
+
 .g1 {
 	color: #43a047;
 }
@@ -213,4 +269,10 @@
 }
 .nodata {
 	color: #c8c8c8;
+}
+.spacer {
+	height: 5px;
+	padding: 0;
+	margin: 0;
+	display: block;
 }

@@ -29,11 +29,11 @@
 }
 
 .reveal.cube .slides section.norm {
-	top: 0 !important;
-	padding: 20px;
+	/*top: 0 !important;*/
+	padding: 50px;
 }
 .reveal.cube .slides section.norm:not(.stack):before {
-	background: rgba(255, 255, 255, 0.1);
+	background: rgba(0, 0, 0, 0.5);
 }
 .reveal.cube .slides section.norm:not(.stack):after {
 	box-shadow: none;
@@ -59,17 +59,17 @@
 	background: rgba(255,255,255, 0.5);
 }
 .reveal.cube .slides section.header {
-	color: #333;
+	color: #fff;
 	left: 10%;
 	top: 40% !important;
 	text-align: right;
 }
 .reveal.cube .slides section.header h3 {
-	color: #333;
+	color: #fff;
 }
 
 .reveal.cube .slides section.header:not(.stack):before {
-	background: rgba(0, 0, 0, 0.2);
+	background: rgba(0, 0, 0, 0.5);
 }
 
 .aca .table {

@@ -8,7 +8,7 @@ based on dark.css by Ivan Sagalaev
   overflow-x: auto;
   padding: 0.5em;
   background: #3f3f3f;
-  color: #dcdcdc;
+  color: #2693ff;
   -webkit-text-size-adjust: none;
 }
 
@@ -21,7 +21,7 @@ based on dark.css by Ivan Sagalaev
 .hljs-request,
 .hljs-status,
 .clojure .hljs-attribute {
-  color: #e3ceab;
+  color: #cc9e1f;
 }
 
 .django .hljs-template_tag,
@@ -32,7 +32,7 @@ based on dark.css by Ivan Sagalaev
 
 .hljs-number,
 .hljs-date {
-  color: #8cd0d3;
+  color: #4ea6d6;
 }
 
 .dos .hljs-envvar,
@@ -101,7 +101,7 @@ based on dark.css by Ivan Sagalaev
 .hljs-annotation,
 .hljs-pi,
 .hljs-doctype {
-  color: #7f9f7f;
+  color: #cc9e1f;
 }
 
 .coffeescript .javascript,

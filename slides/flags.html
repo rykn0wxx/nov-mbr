@@ -1,0 +1,19 @@
+<h4 class="page-header">Final Validation</h4>
+
+<pre>
+  <code class="hljs" data-trim contenteditable>
+if (parGrp.sd !== 0 && parUser.sd !== 0 && refGroup.indexOf(parDate.group) !== -1) {
+  if (parTkt.sdResolvedBy === 0) {
+    flags.ftr = 0;
+    flags.fcr = 0;
+  } else {
+    if (parGrp.sd === parGrp.ctr && parTime.duration <= setTargets.ftr) {
+      flags.ftr = 1; } else { flags.ftr = 0;
+    }
+    if (parUser.sd === parUser.ctr && parTime.duration <= setTargets.fcr) {
+      flags.fcr = 1; } else { flags.fcr = 0;
+    }
+  }
+}
+  </code>
+</pre>  

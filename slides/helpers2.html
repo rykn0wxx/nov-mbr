@@ -1,0 +1,20 @@
+<h4 class="page-header">Getting Start Date and Group</h4>
+
+<pre>
+  <code class="hljs" data-trim contenteditable>
+function initialDate(obj) {
+	var l = obj.length;
+	var mindate = new GlideDateTime(obj[0].start);
+	var iGroup = '', iDate = '';
+	for (var i = 0; i !== l; i++) {
+		var curDate = new GlideDateTime(obj[i].start);
+		if (mindate.compareTo(curDate) ===  1) {
+			mindate = new GlideDateTime(obj[i].start);
+			iDate = obj[i].start;
+			iGroup = obj[i].groupname;
+		}
+	}
+	return {'start':iDate, 'group': iGroup };
+}
+  </code>
+</pre>

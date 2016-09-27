@@ -1,0 +1,13 @@
+<h4 class="page-header">Validation of Users</h4>
+
+<pre>
+  <code class="hljs" data-trim contenteditable>
+function usrFind(id) {
+	var gr = new GlideRecord('sys_user_grmember');
+	gr.addQuery('group.name', 'IN', refGroup);
+	gr.addQuery('user', id);
+	gr.query();
+	return gr.getRowCount();
+}
+  </code>
+</pre>  

@@ -1,0 +1,15 @@
+<h4 class="page-header">Validation of User Group</h4>
+
+<pre>
+  <code class="hljs" data-trim contenteditable>
+function usrGrpFunc(fld, arg) {
+	var gr = new GlideRecord('sys_user_grmember');
+	gr.addQuery('group.name', 'IN', refGroup);
+	gr.addQuery(fld, arg);
+	gr.orderBy('group');
+	gr.setLimit(1);
+	gr.query();
+	return {'sd': gr.getRowCount(), 'ctr': 1};
+}
+  </code>
+</pre>

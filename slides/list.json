@@ -1,67 +1,84 @@
 [
-    {
-        "filename": "landing.html",
-        "attr": {
-            "data-background": "resources/images/landing-bg.jpg",
-            "data-transition": "none",
-            "class": "empty"
-        }
-    },
-    {
-        "filename": "header.html",
-        "attr": {
-            "data-background": "resources/images/header-bg.jpg",
-            "opacity": 0.5,
-            "class": "header"
-        }
-    },
-    {
-        "filename": "sd-sla1.html",
-        "attr": {
-            "class": "norm"
-        }
-    },
-    {
-        "filename": "sd-sla2.html",
-        "attr": {
-            "class": "norm"
-        }
-    },
-    {
-        "filename": "ds-sla1.html",
-        "attr": {
-            "class": "norm"
-        }
-    },
-    {
-        "filename": "ds-sla2.html",
-        "attr": {
-            "class": "norm"
-        }
-    },
-    {
-        "filename": "bs-sla1.html",
-        "attr": {
-            "class": "norm"
-        }
-    },
-    {
-        "filename": "bs-sla2.html",
-        "attr": {
-            "class": "norm"
-        }
-    },
-    {
-        "filename": "bs-sla3.html",
-        "attr": {
-            "class": "norm"
-        }
-    },
-		{
-        "filename": "sd-reg-sla.html",
-        "attr": {
-            "data-background": "resources/images/reg-bg.jpg",
-						"class": "regi"
-        }
-    }
+	{
+		"filename": "landing.html",
+		"attr": {
+			"data-background": "resources/images/landing-bg.jpg",
+			"data-transition": "none",
+			"class": "empty"
+		}
+	},
+	{
+		"filename": "header.html",
+		"attr": {
+			"data-background": "resources/images/header-bg.jpg",
+			"opacity": 0.5,
+			"class": "header"
+		}
+	},
+	{
+		"filename": "overview.html",
+		"attr": {
+			"class": "norm"
+		}
+	},
+	[{
+		"filename": "workflow.html",
+		"attr": {
+			"class": "norm"
+		}
+	},
+	{
+		"filename": "parameters.html",
+		"attr": {
+			"class": "norm"
+		}
+	}],
+	[{
+		"filename": "scripts.html",
+		"attr": {
+			"class": "norm"
+		}
+	},
+	{
+		"filename": "helpers.html",
+		"attr": {
+			"class": "norm"
+		}
+	},
+	{
+		"filename": "helpers2.html",
+		"attr": {
+			"class": "norm"
+		}
+	},
+	{
+		"filename": "helpers3.html",
+		"attr": {
+			"class": "norm"
+		}
+	},
+	{
+		"filename": "helpers4.html",
+		"attr": {
+			"class": "norm"
+		}
+	}],
+	{
+		"filename": "flags.html",
+		"attr": {
+			"class": "norm"
+		}
+	},
+	{
+		"filename": "chart1.html",
+		"attr": {
+			"class": "norm"
+		}
+	},
+	{
+		"filename": "chart2.html",
+		"attr": {
+			"class": "norm"
+		}
+	}
 ]

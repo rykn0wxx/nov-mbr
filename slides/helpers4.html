@@ -1,0 +1,15 @@
+<h4 class="page-header">Custom Reduce Function</h4>
+
+<pre>
+  <code class="hljs" data-trim contenteditable>
+function customSum(obj, arg) {
+  if (!arg) {
+    return obj.reduce(function(p,c) {
+     p.sd = parseInt(p.sd + c.sd);
+     p.ctr = parseInt(p.ctr + c.ctr);
+     return p;
+    }, {sd:0, ctr:0});  
+  }
+}
+  </code>
+</pre>  

@@ -103,6 +103,7 @@
 }
 
 .aca .table > tbody > tr > td {
+	/* font-size: 20px; */
 	vertical-align: middle;
 	border: none;
 	border-top: 1px solid rgba(0,0,0,0.1);
@@ -137,7 +138,7 @@
 	font-weight: 600;
 }
 .aca .tb-col1 > p {
-	font-size: 13px;
+	font-size: 10px;
 	font-style: italic;
 	padding-left: 10px;
 	color: rgba(79,79,79,1);
@@ -165,8 +166,9 @@
 	color: #43a047;
 }
 .aca .tb-col4 > p {
-	font-size: 14px;
+	font-size: 10px;
 	font-style: italic;
+	font-weight: 300;
 	padding-left: 10px;
 	color: rgba(79,79,79,1);
 	margin: 0;
@@ -201,11 +203,15 @@
 }
 
 .aca .regional > tbody > tr > td {
-	padding: 8px 15px;
+	padding: 10px 15px;
 	line-height: 20px;
 	text-align: center;
 	color: #333;
 }
+
+	.aca .regional.ds > tbody > tr > td {
+		padding: 4px 15px;
+	}
 
 .aca .regional .tb-col1 {
 	text-align: left;
@@ -220,7 +226,7 @@
 }
 .aca .regional .tb-col3 {
 	text-align: left;
-	width: 13%;
+	width: 15%;
 	font-size: 12px;
 	font-weight: 300;
 }
@@ -228,21 +234,29 @@
 	width: 10%;
 	font-size: 15px;
 	font-weight: bold;
+	color: #43a047;
 }
 .aca .regional .tb-col5 {
 	width: 10%;
 	font-size: 15px;
 	font-weight: bold;
+	color: #43a047;
 }
 .aca .regional .tb-col6 {
 	width: 10%;
 	font-size: 15px;
 	font-weight: bold;
+	color: #43a047;
 }
 .aca .regional .tb-col7 {
 	width: 10%;
 	font-size: 15px;
 	font-weight: bold;
+	color: #43a047;
+}
+
+.aca .rr {
+	color: #ef5350;
 }
 
 .g1 {
@@ -275,4 +289,9 @@
 	padding: 0;
 	margin: 0;
 	display: block;
+}
+
+.reveal h4 {
+	font-size: 0.7em;
+	margin-bottom: 15px;
 }
